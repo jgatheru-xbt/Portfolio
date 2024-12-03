@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    height: fit-content;
+    background-color: #314440;
+}
+nav{
+    padding: 1.5em 0 1.5em 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background: #1e2025;*/
+}
+
+nav h1{
+    width: fit-content;
+    font-size: 30px;
+    border-right: 5px solid #74c0fc;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+                    typing 2s steps(23),
+                    cursor .4s step-end infinite alternate;
+    background: linear-gradient(to right, aliceblue,#74C0FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes cursor {
+    50%{
+        border-color: transparent;
+    }
+}
+/* section-2 styling --> */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.item-1{
+    padding: 1.7em;
+    width: 29%;
+}
+
+.item-1 h3{
+    width: fit-content;
+    padding-bottom: 10px;
+    color: #74c0fc;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration:underline;
+}
+.item-1 h2{
+    width: fit-content;
+    padding-left: px;
+    color: #cb592f;
+    font-size: 20px;
+    text-align: left;
+}
+
+.item-1 p{
+    width: fit-content;
+    text-align: left;
+    color: grey;
+    font-size: 20px;
+}
+.btns{
+    padding: 1.1em;
+}
+.btns a{
+    text-decoration: none;
+    padding: 1.1em;
+}
+i{
+    border
+}
+
+.item-2{
+    /*border-left: 1px solid red;
+    border-right: 1px solid red;*/
+}
+
+
+
+
+
+.item-2{
+    width: 30%;
+}
+
+.item-3{
+    width: 41%;
+    background: #314440;
+    padding: 10px;
+}
+.item-3 h3{
+    width: fit-content;
+    padding: 10px;
+    color: #74c0fc;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration:underline;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.9em; 
+}
+
+.services .grp{
+   width:190px;
+   height: 9em;
+   padding: .5em;
+   margin-top: 5px;
+   background-color: #354f49;
+   border-radius: 20px;
+}
+.services h3{
+    letter-spacing: 2px;
+    text-align: center;
+    width: auto;
+    color: #cb592f;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.services p{
+    text-align: center;
+    width: fit-content;
+    color: #acaaaa;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+/* section-3 styling -->*/
+
+.portfolio{
+    padding: 20px;
+}
+.heading{
+    width: fit-content;
+    padding: 10px;
+    color: #74c0fc;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration:underline;
+}
+.projects{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    width: 100%;
+}
+.arrow-box{
+    width: 200px;
+    display: flex;
+    color: #cb592f;
+    justify-content: space-around;
+    border-bottom: 1px  #cb592f;
+}
+.proj-list{
+    display: flex;
+    overflow-x: auto;
+}
+.proj-0{
+    width: 250px;
+    margin: .3em ;
+}
+.proj-0:hover{
+   transform: scale(1.05);
+   transition-duration: .5s;
+   /* you can modify the scroll speed to scroll slower */
+}
+
+.proj-0 img{
+    border-radius: 10px;
+    display: block;
+   
+}
+.projects::-webkit-scrollbar{
+    width: 0;
+}
+/*footer styling -->*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+}
+
+dev-----Photo by <a href="https://unsplash.com/@pankajpatel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pankaj Patel</a> on <a href="https://unsplash.com/photos/turned-on-monitor-displaying-programming-language-u2Ru4QBXA5Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
